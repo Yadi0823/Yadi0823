@@ -57,9 +57,9 @@ const cell = 10;
 const gap = 3;
 const step = cell + gap;
 const left = 48;
-const top = 56;
+const top = 68;
 const width = Math.max(760, left + weeks.length * step + 34);
-const height = 190;
+const height = 205;
 
 const escapeXml = (value) =>
   String(value)
@@ -105,19 +105,19 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   <rect width="100%" height="100%" rx="12" fill="#0D1117" />
   <text x="24" y="27" fill="#70A5FD" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="600">Contribution Activity</text>
   <text x="24" y="44" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11">${calendar.totalContributions} public contributions in the last year</text>
-  ${monthLabels.map(({ label, x }) => `<text x="${x}" y="51" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">${label}</text>`).join("\n  ")}
+  ${monthLabels.map(({ label, x }) => `<text x="${x}" y="61" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">${label}</text>`).join("\n  ")}
   <text x="22" y="${top + step + 8}" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="9">Mon</text>
   <text x="22" y="${top + step * 3 + 8}" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="9">Wed</text>
   <text x="22" y="${top + step * 5 + 8}" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="9">Fri</text>
   ${cells.join("\n  ")}
-  <text x="24" y="172" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">${escapeXml(firstDate)} → ${escapeXml(lastDate)}</text>
-  <text x="${width - 174}" y="172" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">Less</text>
-  <rect x="${width - 144}" y="163" width="10" height="10" rx="2" fill="#161B22" />
-  <rect x="${width - 129}" y="163" width="10" height="10" rx="2" fill="#0E4429" />
-  <rect x="${width - 114}" y="163" width="10" height="10" rx="2" fill="#006D32" />
-  <rect x="${width - 99}" y="163" width="10" height="10" rx="2" fill="#26A641" />
-  <rect x="${width - 84}" y="163" width="10" height="10" rx="2" fill="#39D353" />
-  <text x="${width - 65}" y="172" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">More</text>
+  <text x="24" y="190" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">${escapeXml(firstDate)} → ${escapeXml(lastDate)}</text>
+  <text x="${width - 174}" y="190" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">Less</text>
+  <rect x="${width - 144}" y="181" width="10" height="10" rx="2" fill="#161B22" />
+  <rect x="${width - 129}" y="181" width="10" height="10" rx="2" fill="#0E4429" />
+  <rect x="${width - 114}" y="181" width="10" height="10" rx="2" fill="#006D32" />
+  <rect x="${width - 99}" y="181" width="10" height="10" rx="2" fill="#26A641" />
+  <rect x="${width - 84}" y="181" width="10" height="10" rx="2" fill="#39D353" />
+  <text x="${width - 65}" y="190" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">More</text>
 </svg>
 `;
 
