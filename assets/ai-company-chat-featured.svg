@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">AI Company Chat featured open-source project</title>
+  <desc id="desc">A local-first multi-agent AI workspace using Groq, Ollama, memory, relationships, and dynamic routing.</desc>
+  <defs>
+    <linearGradient id="projectBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090D18" />
+      <stop offset="0.62" stop-color="#0D1326" />
+      <stop offset="1" stop-color="#17112A" />
+    </linearGradient>
+    <linearGradient id="projectEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" />
+      <stop offset="0.55" stop-color="#70A5FD" />
+      <stop offset="1" stop-color="#A855F7" />
+    </linearGradient>
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#70A5FD" stroke-opacity="0.055" />
+    </pattern>
+    <clipPath id="projectRound"><rect width="1200" height="430" rx="24" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#projectRound)">
+    <rect width="1200" height="430" fill="url(#projectBg)" />
+    <rect width="1200" height="430" fill="url(#microGrid)" />
+    <circle cx="1090" cy="58" r="180" fill="#A855F7" opacity="0.08" />
+    <circle cx="735" cy="430" r="250" fill="#22D3EE" opacity="0.055" />
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+      <rect x="54" y="45" width="314" height="29" rx="14.5" fill="#122139" stroke="#22D3EE" stroke-opacity="0.55" />
+      <circle cx="75" cy="59.5" r="4" fill="#34D399" />
+      <text x="90" y="64" fill="#A5F3FC" font-size="12" font-weight="700" letter-spacing="1.5">FEATURED OPEN-SOURCE PROTOTYPE</text>
+
+      <text x="54" y="137" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="55" font-weight="800" letter-spacing="-1">AI Company Chat</text>
+      <text x="56" y="175" fill="#9FB7D7" font-size="18">A local-first workspace where independent AI employees</text>
+      <text x="56" y="200" fill="#9FB7D7" font-size="18">think, remember, disagree, and collaborate.</text>
+
+      <g font-size="12" font-weight="700" letter-spacing="0.6">
+        <rect x="54" y="228" width="116" height="31" rx="8" fill="#132848" stroke="#3178C6" />
+        <text x="73" y="248" fill="#BFDBFE">TYPESCRIPT</text>
+        <rect x="181" y="228" width="189" height="31" rx="8" fill="#321B20" stroke="#F55036" />
+        <text x="199" y="248" fill="#FED7D0">GROQ · GPT-OSS 120B</text>
+        <rect x="381" y="228" width="177" height="31" rx="8" fill="#171A22" stroke="#64748B" />
+        <text x="399" y="248" fill="#E2E8F0">OLLAMA · QWEN3.5</text>
+      </g>
+
+      <g font-size="12" font-weight="700" letter-spacing="1.1">
+        <text x="54" y="307" fill="#67E8F9">01 / INDEPENDENT MEMORY</text>
+        <text x="54" y="338" fill="#C4B5FD">02 / AGENT RELATIONSHIPS</text>
+        <text x="54" y="369" fill="#6EE7B7">03 / DYNAMIC 1–3 SPEAKER ROUTING</text>
+      </g>
+      <text x="54" y="405" fill="#64748B" font-size="11">github.com/Yadi0823/ai-company-chat</text>
+    </g>
+
+    <g transform="translate(666 54)">
+      <rect width="478" height="320" rx="19" fill="#0B1020" stroke="#314467" stroke-width="2" />
+      <rect width="478" height="43" rx="19" fill="#121A2D" />
+      <rect y="25" width="478" height="18" fill="#121A2D" />
+      <circle cx="24" cy="21" r="5" fill="#FB7185" /><circle cx="42" cy="21" r="5" fill="#FBBF24" /><circle cx="60" cy="21" r="5" fill="#34D399" />
+      <text x="235" y="26" text-anchor="middle" fill="#8296B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">COMPANY GROUP / LIVE</text>
+
+      <g transform="translate(23 66)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+        <rect width="432" height="58" rx="13" fill="#111A2E" stroke="#22D3EE" stroke-opacity="0.25" />
+        <circle cx="30" cy="29" r="17" fill="#17304A" stroke="#22D3EE" />
+        <text x="30" y="34" text-anchor="middle" fill="#A5F3FC" font-size="10" font-weight="700">安</text>
+        <text x="59" y="22" fill="#67E8F9" font-size="10" font-weight="700">ANRAN · PRODUCT</text>
+        <text x="59" y="42" fill="#CBD5E1" font-size="11">What experience are we really designing?</text>
+      </g>
+
+      <g transform="translate(23 137)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+        <rect width="432" height="58" rx="13" fill="#17152B" stroke="#A855F7" stroke-opacity="0.28" />
+        <circle cx="30" cy="29" r="17" fill="#2B1D43" stroke="#A855F7" />
+        <text x="30" y="34" text-anchor="middle" fill="#E9D5FF" font-size="10" font-weight="700">林</text>
+        <text x="59" y="22" fill="#C4B5FD" font-size="10" font-weight="700">LIN MO · TECH</text>
+        <text x="59" y="42" fill="#CBD5E1" font-size="11">Make the context boundaries explicit.</text>
+      </g>
+
+      <g transform="translate(23 208)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+        <rect width="432" height="58" rx="13" fill="#101E20" stroke="#34D399" stroke-opacity="0.26" />
+        <circle cx="30" cy="29" r="17" fill="#16322D" stroke="#34D399" />
+        <text x="30" y="34" text-anchor="middle" fill="#A7F3D0" font-size="10" font-weight="700">周</text>
+        <text x="59" y="22" fill="#6EE7B7" font-size="10" font-weight="700">ZHOU CE · STRATEGY</text>
+        <text x="59" y="42" fill="#CBD5E1" font-size="11">Fast now—or defensible six months from now?</text>
+      </g>
+
+      <g transform="translate(23 280)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+        <circle cx="8" cy="8" r="7" fill="#34D399" opacity="0.18" />
+        <circle cx="8" cy="8" r="4" fill="#34D399" />
+        <text x="21" y="12" fill="#64748B" font-size="10">ROUTER SELECTED 3 AGENTS · DEEP MODE</text>
+      </g>
+    </g>
+
+    <path d="M614 68h22M614 103h36M614 138h22M614 173h36M614 208h22M614 243h36M614 278h22M614 313h36" stroke="#70A5FD" stroke-opacity="0.23" stroke-width="2" />
+    <rect x="1.5" y="1.5" width="1197" height="427" rx="22.5" fill="none" stroke="url(#projectEdge)" stroke-opacity="0.62" stroke-width="3" />
+  </g>
+</svg>
