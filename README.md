@@ -1,15 +1,16 @@
 <div align="center">
 
-# 👋 Hi, I'm Yadi
-
 <a href="https://github.com/Yadi0823">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=23&amp;pause=900&amp;color=70A5FD&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=Computer+Science+Student;Java+%2F+TypeScript+Developer;Building+Multi-Agent+AI+Systems;Exploring+AI+Agents+%26+Local+LLMs" alt="Typing introduction: Computer Science Student, Java and TypeScript Developer, Building Multi-Agent AI Systems, Exploring AI Agents and Local LLMs" />
+  <img src="./assets/yadi-hero.svg" width="100%" alt="Yadi — Computer Science student building multi-agent AI systems with Java and TypeScript" />
 </a>
 
-**🎓 Computer Science @ Victoria University of Wellington**  
-**🤖 Building Multi-Agent AI Systems** · **💻 Java · TypeScript · AI Agents**
+<br />
 
-### `Building things that think, remember and collaborate.`
+`Building things that think, remember and collaborate.`
+
+**Computer Science @ Victoria University of Wellington** · **Java / TypeScript / AI Agents**
+
+<br />
 
 <a href="https://github.com/Yadi0823"><img src="https://komarev.com/ghpvc/?username=Yadi0823&amp;style=for-the-badge&amp;color=70A5FD&amp;label=PROFILE+VIEWS" alt="Profile views" /></a>
 <a href="https://github.com/Yadi0823?tab=followers"><img src="https://img.shields.io/github/followers/Yadi0823?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=38BDAE" alt="GitHub followers" /></a>
@@ -17,16 +18,16 @@
 
 </div>
 
----
+<img src="./assets/neural-divider.svg" width="100%" alt="" />
 
-## 🧑‍💻 About Me
+## 01 // About
 
 - 🎓 Computer Science student at **Victoria University of Wellington**
-- 🤖 Interested in **AI agents, local LLMs, memory systems, and multi-agent orchestration**
+- 🤖 Exploring **AI agents, local LLMs, memory systems, and multi-agent orchestration**
 - ⚡ Building with **Java, TypeScript, React, Groq, and Ollama**
-- 🧠 I enjoy turning model calls into systems that can **route, remember, disagree, and collaborate**
+- 🧠 Turning model calls into systems that can **route, remember, disagree, and collaborate**
 
-## 🛠️ Tech Stack
+## 02 // Toolkit
 
 <div align="center">
 
@@ -63,32 +64,28 @@
 
 </div>
 
----
+<img src="./assets/neural-divider.svg" width="100%" alt="" />
 
-## 🚀 Featured Project
+## 03 // Featured Build
 
 <div align="center">
 
-### [AI Company Chat](https://github.com/Yadi0823/ai-company-chat)
-
-**A local-first multi-agent AI workspace where independent AI employees think, remember, disagree, and collaborate.**
-
-![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent_AI-6E40C9?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-GPT--OSS_120B-F55036?style=flat-square)
-![Ollama](https://img.shields.io/badge/Ollama-qwen3.5%3A4b-111111?style=flat-square&logo=ollama&logoColor=white)
-![Memory](https://img.shields.io/badge/Independent-Memory-0EA5E9?style=flat-square)
-![Relationships](https://img.shields.io/badge/Agent-Relationships-EC4899?style=flat-square)
-![Dynamic Routing](https://img.shields.io/badge/Dynamic-1--3_Speaker_Routing-14B8A6?style=flat-square)
-
 <a href="https://github.com/Yadi0823/ai-company-chat">
-  <img src="https://github.com/user-attachments/assets/1a973b99-baf3-4a85-8532-f255abab490c" width="100%" alt="AI Company Chat interface with four agents and Groq Cloud provider" />
+  <img src="./assets/ai-company-chat-featured.svg" width="100%" alt="AI Company Chat — a local-first multi-agent AI workspace" />
 </a>
 
 <br />
 
+<a href="https://github.com/Yadi0823/ai-company-chat"><strong>View Repository →</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/Yadi0823/ai-company-chat#architecture">Architecture</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/Yadi0823/ai-company-chat#getting-started">Run Locally</a>
+
+<br /><br />
+
 <a href="https://github.com/Yadi0823/ai-company-chat">
-  <img src="./profile/ai-company-chat.svg" alt="AI Company Chat repository card" />
+  <img src="https://github.com/user-attachments/assets/1a973b99-baf3-4a85-8532-f255abab490c" width="100%" alt="AI Company Chat interface with four agents and Groq Cloud provider" />
 </a>
 
 </div>
@@ -98,15 +95,15 @@
 - Switchable **Groq Cloud / GPT-OSS 120B** and **Ollama Local / qwen3.5:4b** providers
 - Fast/Deep response strategies with rate-limit-aware scheduling and token budgeting
 
-## 🔭 Currently Building
+### Now building
 
 - More natural disagreement and collaboration inside **AI Company Chat**
 - More efficient Groq/Ollama orchestration without flattening the multi-agent experience
 - Better memory retrieval and context selection for long-running conversations
 
----
+<img src="./assets/neural-divider.svg" width="100%" alt="" />
 
-## 📊 GitHub in Motion
+## 04 // GitHub in Motion
 
 <div align="center">
 
@@ -135,14 +132,14 @@
 
 ---
 
-## 🌱 Currently Learning
+## 05 // Currently Learning
 
 - ☕ **Java data structures & algorithms** — building strong foundations
 - 🧭 **Multi-agent orchestration** — routing, memory, and relationships
 - 🦙 **Local LLM systems** — inference, evaluation, and trade-offs
 - 🧩 **Context-efficient prompting** — retrieval instead of prompt bloat
 
-## 🤝 Connect
+## 06 // Connect
 
 <div align="center">
 
