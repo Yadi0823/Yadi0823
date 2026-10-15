@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/profile-cards.yml"
+      - "scripts/generate-contribution-graph.mjs"
 
 concurrency:
   group: profile-cards
@@ -26,7 +27,13 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Generate contribution activity graph
+        run: node scripts/generate-contribution-graph.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
 
       - name: Generate GitHub statistics card
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
