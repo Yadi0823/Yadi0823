@@ -119,7 +119,7 @@
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yadi0823&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;radius=8" width="100%" alt="GitHub contribution activity graph" />
+<img src="./profile/contribution-graph.svg" width="100%" alt="GitHub contribution activity graph" />
 
 <sub>Language cards describe public repository composition—not proficiency.</sub>
 
@@ -137,12 +137,10 @@
 
 ## 🌱 Currently Learning
 
-```text
-Java data structures & algorithms   ███████████████░░░░░   building strong foundations
-Multi-agent orchestration           ████████████████░░░░   routing, memory, relationships
-Local LLM systems                   ██████████████░░░░░░   inference, evaluation, trade-offs
-Context-efficient prompting         ███████████████░░░░░   retrieval over prompt bloat
-```
+- ☕ **Java data structures & algorithms** — building strong foundations
+- 🧭 **Multi-agent orchestration** — routing, memory, and relationships
+- 🦙 **Local LLM systems** — inference, evaluation, and trade-offs
+- 🧩 **Context-efficient prompting** — retrieval instead of prompt bloat
 
 ## 🤝 Connect
 
